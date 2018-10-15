@@ -1,0 +1,237 @@
+# Loading project cpu-mips
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim cpu-mips.instruction_rom_tb
+# vsim cpu-mips.instruction_rom_tb 
+# Start time: 16:23:52 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv(13): [PCDPC] - Port size (32) does not match connection size (48) for port 'Address'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /instruction_rom_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv(13): [PCDPC] - Port size (32) does not match connection size (48) for port 'Instr'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /instruction_rom_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+vsim cpu-mips.instruction_rom_tb
+# End time: 16:28:44 on Oct 15,2018, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 3
+# vsim cpu-mips.instruction_rom_tb 
+# Start time: 16:28:44 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+restart
+# Loading cpu-mips.instruction_rom_tb
+add wave -position end  sim:/instruction_rom_tb/clk
+add wave -position end  sim:/instruction_rom_tb/reset
+add wave -position end  sim:/instruction_rom_tb/address
+add wave -position end  sim:/instruction_rom_tb/instr
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom_tb.sv was successful.
+restart
+# Loading cpu-mips.instruction_rom_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.instruction_rom_tb
+# Loading cpu-mips.instruction_rom
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/instruction_rom_tb/DUT/Instr
+# Compile of instruction_rom_tb.sv was successful.
+restart
+# Loading cpu-mips.instruction_rom_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Load canceled
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of reg_bank_tb.sv was successful.
+# Load canceled
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim cpu-mips.reg_bank_tb
+# End time: 16:51:50 on Oct 15,2018, Elapsed time: 0:23:06
+# Errors: 2, Warnings: 9
+# vsim cpu-mips.reg_bank_tb 
+# Start time: 16:51:50 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+add wave -position end  sim:/reg_bank_tb/WIDTH
+add wave -position end  sim:/reg_bank_tb/TOTAL_REGS
+add wave -position end  sim:/reg_bank_tb/clk
+add wave -position end  sim:/reg_bank_tb/we3
+add wave -position end  sim:/reg_bank_tb/ra1
+add wave -position end  sim:/reg_bank_tb/ra2
+add wave -position end  sim:/reg_bank_tb/ra3
+add wave -position end  sim:/reg_bank_tb/wd3
+add wave -position end  sim:/reg_bank_tb/rd1
+add wave -position end  sim:/reg_bank_tb/rd2
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 340 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim cpu-mips.reg_en_tb
+# End time: 17:06:58 on Oct 15,2018, Elapsed time: 0:15:08
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.reg_en_tb 
+# Start time: 17:06:58 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_en_tb
+# Loading cpu-mips.instruction_rom
+# ** Error: (vsim-3063) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv(17): Port 'ENABLE' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_en_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+# ** Error: (vsim-3063) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv(17): Port 'DATA_IN' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_en_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+# ** Error: (vsim-3063) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv(17): Port 'DATA_OUT' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_en_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+# Error loading design
+# End time: 17:06:59 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim cpu-mips.reg_en_tb
+# vsim cpu-mips.reg_en_tb 
+# Start time: 17:07:43 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_en_tb
+# Loading cpu-mips.reg_en
+add wave -position end  sim:/reg_en_tb/WIDTH
+add wave -position end  sim:/reg_en_tb/clk
+add wave -position end  sim:/reg_en_tb/enable
+add wave -position end  sim:/reg_en_tb/data_in
+add wave -position end  sim:/reg_en_tb/data_out
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run
+# Load canceled
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_en_tb
+# Loading cpu-mips.reg_en
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# 8 compiles, 0 failed with no errors.
+vsim cpu-mips.adder_tb
+# End time: 17:16:18 on Oct 15,2018, Elapsed time: 0:08:35
+# Errors: 1, Warnings: 3
+# vsim cpu-mips.adder_tb 
+# Start time: 17:16:18 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.adder_tb
+# Loading cpu-mips.adder
+add wave -position end  sim:/adder_tb/WIDTH
+add wave -position end  sim:/adder_tb/data_in_1
+add wave -position end  sim:/adder_tb/data_in_2
+add wave -position end  sim:/adder_tb/data_out
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv failed with 1 errors.
+# Compile of mux_2x1_tb.sv was successful.
+# 10 compiles, 1 failed with 1 error.
+# Compile of mux_2x1.sv was successful.
+vsim cpu-mips.mux_2x1_tb
+# End time: 17:22:59 on Oct 15,2018, Elapsed time: 0:06:41
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.mux_2x1_tb 
+# Start time: 17:22:59 on Oct 15,2018
+# Loading sv_std.std
+# Loading cpu-mips.mux_2x1_tb
+# Loading cpu-mips.mux_2x1
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+add wave -position end  sim:/mux_2x1_tb/WIDTH
+add wave -position end  sim:/mux_2x1_tb/select
+add wave -position end  sim:/mux_2x1_tb/data_in_1
+add wave -position end  sim:/mux_2x1_tb/data_in_2
+add wave -position end  sim:/mux_2x1_tb/data_out
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.

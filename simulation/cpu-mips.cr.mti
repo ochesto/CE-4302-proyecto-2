@@ -1,0 +1,64 @@
+/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_bank
+
+Top level modules:
+	reg_bank
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_rom_tb
+
+Top level modules:
+	instruction_rom_tb
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/mux_2x1_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/mux_2x1_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_2x1_tb
+
+Top level modules:
+	mux_2x1_tb
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/adder_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/adder_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_en_tb
+
+Top level modules:
+	reg_en_tb
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_rom
+
+Top level modules:
+	instruction_rom
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_en.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_en.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_en
+
+Top level modules:
+	reg_en
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module reg_bank_tb
+
+Top level modules:
+	reg_bank_tb
+
+} {} {}}
