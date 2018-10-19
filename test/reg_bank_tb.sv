@@ -2,7 +2,7 @@
 module reg_bank_tb;
 
     parameter WIDTH = 32;
-    parameter TOTAL_REGS = 16;
+    parameter TOTAL_REGS = 32;
 
 	// Inputs
 	bit clk;

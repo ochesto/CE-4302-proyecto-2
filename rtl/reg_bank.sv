@@ -5,7 +5,7 @@ intermediate values used during the execution of the program.
 */
 module reg_bank #( 
     parameter WIDTH = 32,
-    parameter TOTAL_REGS = 4 )
+    parameter TOTAL_REGS = 5 )
 (
     input logic CLK,
     input logic WE3,
@@ -19,9 +19,9 @@ module reg_bank #(
 
 logic [WIDTH-1:0] rb[TOTAL_REGS-1:0];
 initial begin
-    for (int i=0; i<32; i++) begin
+    /*for (int i=0; i<32; i++) begin
         rb[i] = 0;
-    end 
+    end*/ 
 end
 
 always@(posedge CLK) begin

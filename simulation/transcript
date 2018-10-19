@@ -1505,3 +1505,713 @@ run
 # ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv(64)
 #    Time: 135 ns  Iteration: 0  Instance: /pipe_mw_tb
 # Break in Module pipe_mw_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv line 64
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# 26 compiles, 0 failed with no errors.
+vsim cpu-mips.reg_bank_tb
+# End time: 20:10:43 on Oct 18,2018, Elapsed time: 16:59:22
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.reg_bank_tb 
+# Start time: 20:10:43 on Oct 18,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+add wave -position end  sim:/reg_bank_tb/WIDTH
+add wave -position end  sim:/reg_bank_tb/TOTAL_REGS
+add wave -position end  sim:/reg_bank_tb/clk
+add wave -position end  sim:/reg_bank_tb/we3
+add wave -position end  sim:/reg_bank_tb/ra1
+add wave -position end  sim:/reg_bank_tb/ra2
+add wave -position end  sim:/reg_bank_tb/ra3
+add wave -position end  sim:/reg_bank_tb/wd3
+add wave -position end  sim:/reg_bank_tb/rd1
+add wave -position end  sim:/reg_bank_tb/rd2
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# 28 compiles, 0 failed with no errors.
+vsim cpu-mips.control_unit_tb
+# End time: 21:32:05 on Oct 18,2018, Elapsed time: 1:21:22
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.control_unit_tb 
+# Start time: 21:32:05 on Oct 18,2018
+# Loading sv_std.std
+# Loading cpu-mips.control_unit_tb
+# Loading cpu-mips.control_unit
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+add wave -position end  sim:/control_unit_tb/WIDTH
+add wave -position end  sim:/control_unit_tb/instr
+add wave -position end  sim:/control_unit_tb/regwrite
+add wave -position end  sim:/control_unit_tb/memtoreg
+add wave -position end  sim:/control_unit_tb/memwrite
+add wave -position end  sim:/control_unit_tb/alucontrol
+add wave -position end  sim:/control_unit_tb/alusrc
+add wave -position end  sim:/control_unit_tb/branch
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv failed with 1 errors.
+# Compile of alu_tb.sv was successful.
+# 30 compiles, 1 failed with 1 error.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv failed with 1 errors.
+# Compile of alu_tb.sv was successful.
+# 30 compiles, 1 failed with 1 error.
+# Compile of alu.sv failed with 30 errors.
+# Compile of alu.sv failed with 16 errors.
+# Compile of alu.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# 30 compiles, 0 failed with no errors.
+vsim cpu-mips.alu_tb
+# End time: 22:38:13 on Oct 18,2018, Elapsed time: 1:06:08
+# Errors: 0, Warnings: 2
+# vsim cpu-mips.alu_tb 
+# Start time: 22:38:13 on Oct 18,2018
+# Loading sv_std.std
+# Loading cpu-mips.alu_tb
+# Loading cpu-mips.alu
+add wave -position end  sim:/alu_tb/WIDTH
+add wave -position end  sim:/alu_tb/ALU_ADD
+add wave -position end  sim:/alu_tb/ALU_SUB
+add wave -position end  sim:/alu_tb/ALU_MULT
+add wave -position end  sim:/alu_tb/ALU_XOR
+add wave -position end  sim:/alu_tb/ALU_ADDV
+add wave -position end  sim:/alu_tb/ALU_SUBV
+add wave -position end  sim:/alu_tb/ALU_XORV
+add wave -position end  sim:/alu_tb/ALU_SLV
+add wave -position end  sim:/alu_tb/ALU_SRV
+add wave -position end  sim:/alu_tb/ALU_SCLV
+add wave -position end  sim:/alu_tb/ALU_SCRV
+add wave -position end  sim:/alu_tb/ALU_NOP
+add wave -position end  sim:/alu_tb/src_a
+add wave -position end  sim:/alu_tb/src_b
+add wave -position end  sim:/alu_tb/alucontrol
+add wave -position end  sim:/alu_tb/result
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of alu.sv was successful.
+restart
+# Loading cpu-mips.alu
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of alu.sv was successful.
+restart
+# Loading cpu-mips.alu
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of alu_tb.sv was successful.
+restart
+# Loading cpu-mips.alu_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of alu.sv was successful.
+restart
+# Loading cpu-mips.alu
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of alu.sv was successful.
+run
+restart
+# Loading cpu-mips.alu
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+vsim cpu-mips.mux_3x1_tb
+# End time: 00:17:04 on Oct 19,2018, Elapsed time: 1:38:51
+# Errors: 0, Warnings: 6
+# vsim cpu-mips.mux_3x1_tb 
+# Start time: 00:17:04 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+add wave -position end  sim:/mux_3x1_tb/WIDTH
+add wave -position end  sim:/mux_3x1_tb/SELECT_1
+add wave -position end  sim:/mux_3x1_tb/SELECT_2
+add wave -position end  sim:/mux_3x1_tb/SELECT_3
+add wave -position end  sim:/mux_3x1_tb/select
+add wave -position end  sim:/mux_3x1_tb/data_in_1
+add wave -position end  sim:/mux_3x1_tb/data_in_2
+add wave -position end  sim:/mux_3x1_tb/data_in_3
+add wave -position end  sim:/mux_3x1_tb/data_out
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+restart
+# Loading cpu-mips.mux_3x1_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of mux_3x1_tb.sv was successful.
+run
+restart
+# Loading cpu-mips.mux_3x1_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 32 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 32 compiles, 0 failed with no errors.
+vsim cpu-mips.mux_3x1_tb
+# End time: 00:23:35 on Oct 19,2018, Elapsed time: 0:06:31
+# Errors: 0, Warnings: 6
+# vsim cpu-mips.mux_3x1_tb 
+# Start time: 00:23:35 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+add wave -position end  sim:/mux_3x1_tb/WIDTH
+add wave -position end  sim:/mux_3x1_tb/SELECT_1
+add wave -position end  sim:/mux_3x1_tb/SELECT_2
+add wave -position end  sim:/mux_3x1_tb/SELECT_3
+add wave -position end  sim:/mux_3x1_tb/select
+add wave -position end  sim:/mux_3x1_tb/data_in_1
+add wave -position end  sim:/mux_3x1_tb/data_in_2
+add wave -position end  sim:/mux_3x1_tb/data_in_3
+add wave -position end  sim:/mux_3x1_tb/data_out
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+# Compile of mux_3x1.sv was successful.
+restart
+# Loading cpu-mips.mux_3x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/mux_3x1_tb.sv(20): [PCDPC] - Port size (2) does not match connection size (1) for port 'SELECT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /mux_3x1_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.mux_3x1_tb
+# Loading cpu-mips.mux_3x1
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of pipe_de.sv failed with 1 errors.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of pipe_de.sv was successful.
+vsim cpu-mips.pipe_de_tb
+# End time: 00:37:37 on Oct 19,2018, Elapsed time: 0:14:02
+# Errors: 0, Warnings: 4
+# vsim cpu-mips.pipe_de_tb 
+# Start time: 00:37:37 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.pipe_de_tb
+# Loading cpu-mips.pipe_de
+add wave -position end  sim:/pipe_de_tb/WIDTH
+add wave -position end  sim:/pipe_de_tb/clk
+add wave -position end  sim:/pipe_de_tb/clr
+add wave -position end  sim:/pipe_de_tb/regwrite_d
+add wave -position end  sim:/pipe_de_tb/memtoreg_d
+add wave -position end  sim:/pipe_de_tb/memwrite_d
+add wave -position end  sim:/pipe_de_tb/alucontrol_d
+add wave -position end  sim:/pipe_de_tb/alusrc_d
+add wave -position end  sim:/pipe_de_tb/rd1_d
+add wave -position end  sim:/pipe_de_tb/rd2_d
+add wave -position end  sim:/pipe_de_tb/ra1_d
+add wave -position end  sim:/pipe_de_tb/ra2_d
+add wave -position end  sim:/pipe_de_tb/rs_d
+add wave -position end  sim:/pipe_de_tb/signimm_d
+add wave -position end  sim:/pipe_de_tb/shift_d
+add wave -position end  sim:/pipe_de_tb/regwrite_e
+add wave -position end  sim:/pipe_de_tb/memtoreg_e
+add wave -position end  sim:/pipe_de_tb/memwrite_e
+add wave -position end  sim:/pipe_de_tb/alucontrol_e
+add wave -position end  sim:/pipe_de_tb/alusrc_e
+add wave -position end  sim:/pipe_de_tb/rd1_e
+add wave -position end  sim:/pipe_de_tb/rd2_e
+add wave -position end  sim:/pipe_de_tb/ra1_e
+add wave -position end  sim:/pipe_de_tb/ra2_e
+add wave -position end  sim:/pipe_de_tb/rs_e
+add wave -position end  sim:/pipe_de_tb/signimm_e
+add wave -position end  sim:/pipe_de_tb/shift_e
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_de_tb.sv(112)
+#    Time: 135 ns  Iteration: 0  Instance: /pipe_de_tb
+# Break in Module pipe_de_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_de_tb.sv line 112
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv failed with 1 errors.
+# Compile of pipe_em_tb.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of pipe_em.sv was successful.
+vsim cpu-mips.pipe_em
+# End time: 00:57:09 on Oct 19,2018, Elapsed time: 0:19:32
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.pipe_em 
+# Start time: 00:57:09 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.pipe_em
+add wave -position end  sim:/pipe_em/WIDTH
+add wave -position end  sim:/pipe_em/CLK
+add wave -position end  sim:/pipe_em/CLR
+add wave -position end  sim:/pipe_em/REG_WRITE_E
+add wave -position end  sim:/pipe_em/MEM_TO_REG_E
+add wave -position end  sim:/pipe_em/MEM_WRITE_E
+add wave -position end  sim:/pipe_em/ALU_OUT_E
+add wave -position end  sim:/pipe_em/WRITE_REG_E
+add wave -position end  sim:/pipe_em/WRITE_DATA_E
+add wave -position end  sim:/pipe_em/REG_WRITE_M
+add wave -position end  sim:/pipe_em/MEM_TO_REG_M
+add wave -position end  sim:/pipe_em/MEM_WRITE_M
+add wave -position end  sim:/pipe_em/ALU_OUT_M
+add wave -position end  sim:/pipe_em/WRITE_REG_M
+add wave -position end  sim:/pipe_em/WRITE_DATA_M
+add wave -position end  sim:/pipe_em/temp_regwrite
+add wave -position end  sim:/pipe_em/temp_memtoreg
+add wave -position end  sim:/pipe_em/temp_memwrite
+add wave -position end  sim:/pipe_em/temp_aluout
+add wave -position end  sim:/pipe_em/temp_writereg
+add wave -position end  sim:/pipe_em/temp_writedata
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+vsim cpu-mips.pipe_em_tb
+# End time: 00:58:33 on Oct 19,2018, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.pipe_em_tb 
+# Start time: 00:58:33 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.pipe_em_tb
+# Loading cpu-mips.pipe_em
+add wave -position end  sim:/pipe_em_tb/WIDTH
+add wave -position end  sim:/pipe_em_tb/clk
+add wave -position end  sim:/pipe_em_tb/clr
+add wave -position end  sim:/pipe_em_tb/regwrite_e
+add wave -position end  sim:/pipe_em_tb/memtoreg_e
+add wave -position end  sim:/pipe_em_tb/memwrite_e
+add wave -position end  sim:/pipe_em_tb/aluout_e
+add wave -position end  sim:/pipe_em_tb/writedata_e
+add wave -position end  sim:/pipe_em_tb/writereg_e
+add wave -position end  sim:/pipe_em_tb/regwrite_m
+add wave -position end  sim:/pipe_em_tb/memtoreg_m
+add wave -position end  sim:/pipe_em_tb/memwrite_m
+add wave -position end  sim:/pipe_em_tb/aluout_m
+add wave -position end  sim:/pipe_em_tb/writedata_m
+add wave -position end  sim:/pipe_em_tb/writereg_m
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_em_tb.sv(76)
+#    Time: 135 ns  Iteration: 0  Instance: /pipe_em_tb
+# Break in Module pipe_em_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_em_tb.sv line 76
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of ram_tb.sv failed with 1 errors.
+# Compile of ram_tb.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim cpu-mips.ram_tb
+# End time: 01:30:45 on Oct 19,2018, Elapsed time: 0:32:12
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.ram_tb 
+# Start time: 01:30:45 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.ram_tb
+# Loading cpu-mips.ram
+add wave -position end  sim:/ram_tb/WIDTH
+add wave -position end  sim:/ram_tb/clk
+add wave -position end  sim:/ram_tb/write_enable
+add wave -position end  sim:/ram_tb/address
+add wave -position end  sim:/ram_tb/data
+add wave -position end  sim:/ram_tb/read_data
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv(55)
+#    Time: 4 us  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv line 55
+# Compile of ram_tb.sv was successful.
+restart
+# Loading cpu-mips.ram_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv(57)
+#    Time: 4020 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv line 57
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.ram_tb
+# Loading cpu-mips.ram
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv(16): [PCDPC] - Port size (32) does not match connection size (1025) for port 'ADDRESS'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/ram.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/ram.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv(57)
+#    Time: 4020 ns  Iteration: 0  Instance: /ram_tb
+# Break in Module ram_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv line 57
+# End time: 01:45:14 on Oct 19,2018, Elapsed time: 0:14:29
+# Errors: 0, Warnings: 5
+# Closing project /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/simulation/cpu-mips.mpf
+# reading modelsim.ini
+# Loading project cpu-mips
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim cpu-mips.pipe_mw_tb
+# vsim cpu-mips.pipe_mw_tb 
+# Start time: 01:45:32 on Oct 19,2018
+# Loading sv_std.std
+# Loading cpu-mips.pipe_mw_tb
+# Loading cpu-mips.pipe_mw
+add wave -position end  sim:/pipe_mw_tb/WIDTH
+add wave -position end  sim:/pipe_mw_tb/clk
+add wave -position end  sim:/pipe_mw_tb/clr
+add wave -position end  sim:/pipe_mw_tb/regwrite_m
+add wave -position end  sim:/pipe_mw_tb/memtoreg_m
+add wave -position end  sim:/pipe_mw_tb/readdata_m
+add wave -position end  sim:/pipe_mw_tb/aluout_m
+add wave -position end  sim:/pipe_mw_tb/writereg_m
+add wave -position end  sim:/pipe_mw_tb/regwrite_w
+add wave -position end  sim:/pipe_mw_tb/memtoreg_w
+add wave -position end  sim:/pipe_mw_tb/readdata_w
+add wave -position end  sim:/pipe_mw_tb/aluout_w
+add wave -position end  sim:/pipe_mw_tb/writereg_w
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv(70)
+#    Time: 135 ns  Iteration: 0  Instance: /pipe_mw_tb
+# Break in Module pipe_mw_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv line 70

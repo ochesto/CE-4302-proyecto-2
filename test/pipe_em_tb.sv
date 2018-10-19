@@ -11,6 +11,7 @@ module pipe_em_tb;
     logic memwrite_e;
     logic [WIDTH-1:0] aluout_e;
     logic [WIDTH-1:0] writedata_e;
+    logic [4:0] writereg_e;
 	
 	//Outputs
     logic regwrite_m;
@@ -18,6 +19,7 @@ module pipe_em_tb;
     logic memwrite_m;
     logic [WIDTH-1:0] aluout_m;
     logic [WIDTH-1:0] writedata_m;
+    logic [4:0] writereg_m;
 
 	// Instantiate the Device Under Test (DUT)
     pipe_em #(WIDTH) DUT( 
@@ -28,12 +30,14 @@ module pipe_em_tb;
         .MEM_WRITE_E( memwrite_e ),
         .ALU_OUT_E( aluout_e ),
         .WRITE_DATA_E( writedata_e ),
+        .WRITE_REG_E( writereg_e ),
 
         .REG_WRITE_M( regwrite_m ),
         .MEM_TO_REG_M( memtoreg_m ),
         .MEM_WRITE_M( memwrite_m ),
         .ALU_OUT_M( aluout_m ),
-        .WRITE_DATA_M( writedata_m )
+        .WRITE_DATA_M( writedata_m ),
+        .WRITE_REG_M( writereg_m )
     );
 
     //Initialize clock
@@ -49,11 +53,12 @@ module pipe_em_tb;
 		// Initialize Inputs
 		clk = 0;
         clr = 1;
-        regwrite_e = $urandom();
-        memtoreg_e = $urandom();
-        memwrite_e = $urandom();
-        aluout_e = $urandom();
-        writedata_e = $urandom();
+        regwrite_e = 0;
+        memtoreg_e = 0;
+        memwrite_e = 0;
+        aluout_e = 0;
+        writereg_e = 0;
+        writedata_e = 0;
         #5;
 
         for( int i=0; i < 10; i++ ) begin
@@ -63,6 +68,7 @@ module pipe_em_tb;
             memtoreg_e = $urandom();
             memwrite_e = $urandom();
             aluout_e = $urandom();
+            writereg_e = $urandom();
             writedata_e = $urandom();
         end
 
