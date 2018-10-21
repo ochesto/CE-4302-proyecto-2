@@ -8,7 +8,8 @@ output logic MEM_TO_REG,
 output logic MEM_WRITE,
 output logic [3:0] ALU_CONTROL,
 output logic [1:0] ALU_SRC,
-output logic BRANCH
+output logic BRANCH,
+output logic NOT_EQUAL
 );
 
 parameter ADD = 6'b000000;
@@ -26,10 +27,10 @@ parameter SRV = 6'b001000;
 parameter SCLV = 6'b001001;
 parameter SCRV = 6'b001010;
 parameter LW = 6'b001011;
-parameter LWV = 6'b001100;
-parameter SW = 6'b001101;
-parameter SWV = 6'b001110;
-parameter JUMP = 6'b001111;
+parameter LWV = 6'b001011;
+parameter SW = 6'b001100;
+parameter SWV = 6'b001100;
+parameter JUMP = 6'b001101;
 parameter BRANCH_EQ = 6'b010000;
 parameter NOP = 6'b111111;
 
@@ -53,85 +54,85 @@ parameter ALU_SRC_RD = 2'b00;
 parameter ALU_SRC_SHIFT = 2'b01;
 parameter ALU_SRC_SE = 2'b10;
 
-logic [9:0] controls;
+logic [10:0] controls;
 
 always_comb begin
 case(OP)
 	
 	ADD: begin
-			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_ADDV,ALU_SRC_RD,BIT_OFF} : 
-			{BIT_ON,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_ADDV,ALU_SRC_RD,BIT_OFF,BIT_OFF} : 
+			{BIT_ON,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	ADDI: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_SE,BIT_OFF,BIT_OFF};
 	end
 
 	SUB: begin
-			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_SUBV,ALU_SRC_RD,BIT_OFF} : 
-			{BIT_ON,BIT_OFF,BIT_OFF,ALU_SUB,ALU_SRC_RD,BIT_OFF};
+			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_SUBV,ALU_SRC_RD,BIT_OFF,BIT_OFF} : 
+			{BIT_ON,BIT_OFF,BIT_OFF,ALU_SUB,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	SUBI: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SUB,ALU_SRC_SE,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SUB,ALU_SRC_SE,BIT_OFF,BIT_OFF};
 	end
 
 	XOR: begin
-			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_XORV,ALU_SRC_RD,BIT_OFF} : 
-			{BIT_ON,BIT_OFF,BIT_OFF,ALU_XOR,ALU_SRC_RD,BIT_OFF};
+			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_XORV,ALU_SRC_RD,BIT_OFF,BIT_OFF} : 
+			{BIT_ON,BIT_OFF,BIT_OFF,ALU_XOR,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	XORI: begin
-			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_XORV,ALU_SRC_RD,BIT_OFF} : 
-			{BIT_ON,BIT_OFF,BIT_OFF,ALU_XOR,ALU_SRC_RD,BIT_OFF};
+			controls = (VEC) ? {BIT_ON,BIT_OFF,BIT_OFF,ALU_XORV,ALU_SRC_SE,BIT_OFF,BIT_OFF} : 
+			{BIT_ON,BIT_OFF,BIT_OFF,ALU_XOR,ALU_SRC_SE,BIT_OFF,BIT_OFF};
 	end
 
 	MULT: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_XOR,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_MULT,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	SLV: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SLV,ALU_SRC_SHIFT,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SLV,ALU_SRC_SHIFT,BIT_OFF,BIT_OFF};
 	end
 
 	SRV: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SRV,ALU_SRC_SHIFT,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SRV,ALU_SRC_SHIFT,BIT_OFF,BIT_OFF};
 	end
 
 	SCLV: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SCLV,ALU_SRC_SHIFT,BIT_OFF};
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SCLV,ALU_SRC_SHIFT,BIT_OFF,BIT_OFF};
 	end
 
-	SCLV: begin
-			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SCRV,ALU_SRC_SHIFT,BIT_OFF};
+	SCRV: begin
+			controls = {BIT_ON,BIT_OFF,BIT_OFF,ALU_SCRV,ALU_SRC_SHIFT,BIT_OFF,BIT_OFF};
 	end
 
 	LW: begin
-			controls = {BIT_ON,BIT_ON,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_ON,BIT_ON,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	LWV: begin
-			controls = {BIT_ON,BIT_ON,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_ON,BIT_ON,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	SW: begin
-			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	SWV: begin
-			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
-	JUMP: begin /* doesn't work, add clear pipes controller */
-			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_OFF};
+	JUMP: begin /* TODO: add clear pipes controller */
+			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_ON,BIT_ON};
 	end
 
-	BRANCH_EQ: begin /* only this jump works */
-			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_ON};
+	BRANCH_EQ: begin
+			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_ADD,ALU_SRC_RD,BIT_ON,BIT_OFF};
 	end
 
 	NOP: begin 
-			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_NOP,ALU_SRC_SHIFT,BIT_OFF};
+			controls = {BIT_OFF,BIT_OFF,BIT_OFF,ALU_NOP,ALU_SRC_SHIFT,BIT_OFF,BIT_OFF};
 	end
 
 endcase
@@ -142,6 +143,7 @@ assign {	REG_WRITE,
 					MEM_WRITE, 
 					ALU_CONTROL, 
 					ALU_SRC, 
-					BRANCH } = controls;
+					BRANCH,
+					NOT_EQUAL } = controls;
 
 endmodule

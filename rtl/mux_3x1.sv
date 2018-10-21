@@ -22,7 +22,7 @@ always_comb begin
         end
 
         SELECT_2: begin
-            out = DATA_IN_2;
+            out = {{29{1'b0}}, DATA_IN_2[2:0]};
         end
 
         SELECT_3: begin

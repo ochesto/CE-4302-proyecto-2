@@ -11,9 +11,9 @@ module ram #( parameter WIDTH = 32 )
 	//(* ram_init_file = "mem_pic.mif" *) logic [SIZE-1:0] RAM[63:0];
 	logic [WIDTH-1:0] RAM[0:1024];
 	initial begin
-		/*for( int i=0; i < 64; i++ ) begin
-			RAM[i] = 0;
-		end*/
+		for( int i=0; i < 1024; i++ ) begin
+			RAM[i] = i;
+		end
 	end
 
 	always @ (posedge CLK) begin

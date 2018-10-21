@@ -5,13 +5,13 @@ intermediate values used during the execution of the program.
 */
 module reg_bank #( 
     parameter WIDTH = 32,
-    parameter TOTAL_REGS = 5 )
+    parameter TOTAL_REGS = 32 )
 (
     input logic CLK,
     input logic WE3,
-    input logic [TOTAL_REGS-1:0] RA1,
-    input logic [TOTAL_REGS-1:0] RA2,
-    input logic [TOTAL_REGS-1:0] RA3,
+    input logic [5-1:0] RA1,
+    input logic [5-1:0] RA2,
+    input logic [5-1:0] RA3,
     input logic [WIDTH-1:0] WD3,
     output logic [WIDTH-1:0] RD1,
     output logic [WIDTH-1:0] RD2
@@ -19,9 +19,9 @@ module reg_bank #(
 
 logic [WIDTH-1:0] rb[TOTAL_REGS-1:0];
 initial begin
-    /*for (int i=0; i<32; i++) begin
-        rb[i] = 0;
-    end*/ 
+    for (int i=0; i<TOTAL_REGS; i++) begin
+        rb[i] = i;
+    end 
 end
 
 always@(posedge CLK) begin

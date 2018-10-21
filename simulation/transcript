@@ -2215,3 +2215,2146 @@ run
 # ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv(70)
 #    Time: 135 ns  Iteration: 0  Instance: /pipe_mw_tb
 # Break in Module pipe_mw_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/pipe_mw_tb.sv line 70
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim cpu-mips.control_unit_tb
+# End time: 18:16:49 on Oct 20,2018, Elapsed time: 40:31:17
+# Errors: 0, Warnings: 1
+# vsim cpu-mips.control_unit_tb 
+# Start time: 18:16:49 on Oct 20,2018
+# Loading sv_std.std
+# Loading cpu-mips.control_unit_tb
+# Loading cpu-mips.control_unit
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+add wave -position end  sim:/control_unit_tb/WIDTH
+add wave -position end  sim:/control_unit_tb/instr
+add wave -position end  sim:/control_unit_tb/regwrite
+add wave -position end  sim:/control_unit_tb/memtoreg
+add wave -position end  sim:/control_unit_tb/memwrite
+add wave -position end  sim:/control_unit_tb/alucontrol
+add wave -position end  sim:/control_unit_tb/alusrc
+add wave -position end  sim:/control_unit_tb/branch
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+# Compile of control_unit_tb.sv was successful.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+restart
+# Loading cpu-mips.control_unit_tb
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit_tb.sv was successful.
+restart
+# Loading cpu-mips.control_unit_tb
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_SRC'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit_tb.sv was successful.
+restart
+# Loading cpu-mips.control_unit_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit.sv was successful.
+restart
+# Loading cpu-mips.control_unit
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit.sv was successful.
+restart
+# Loading cpu-mips.control_unit
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit.sv was successful.
+restart
+# Loading cpu-mips.control_unit
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# WARNING: No extended dataflow license exists
+# Compile of control_unit_tb.sv was successful.
+restart
+# Loading cpu-mips.control_unit_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.control_unit_tb
+# Loading cpu-mips.control_unit
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.control_unit_tb
+# Loading cpu-mips.control_unit
+# ** Warning: (vsim-3017) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [TFMPC] - Too few port connections. Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /control_unit_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
+# ** Warning: (vsim-3722) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv(18): [TFMPC] - Missing connection for port 'NOT_EQUAL'.
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of control_unit_tb.sv was successful.
+vsim cpu-mips.control_unit_tb
+# End time: 23:08:13 on Oct 20,2018, Elapsed time: 4:51:24
+# Errors: 10, Warnings: 20
+# vsim cpu-mips.control_unit_tb 
+# Start time: 23:08:13 on Oct 20,2018
+# Loading sv_std.std
+# Loading cpu-mips.control_unit_tb
+# Loading cpu-mips.control_unit
+add wave -position end  sim:/control_unit_tb/WIDTH
+add wave -position end  sim:/control_unit_tb/instr
+add wave -position end  sim:/control_unit_tb/regwrite
+add wave -position end  sim:/control_unit_tb/memtoreg
+add wave -position end  sim:/control_unit_tb/memwrite
+add wave -position end  sim:/control_unit_tb/alucontrol
+add wave -position end  sim:/control_unit_tb/alusrc
+add wave -position end  sim:/control_unit_tb/branch
+add wave -position end  sim:/control_unit_tb/notequal
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim cpu-mips.is_equal_tb
+# End time: 23:16:43 on Oct 20,2018, Elapsed time: 0:08:30
+# Errors: 1, Warnings: 2
+# vsim cpu-mips.is_equal_tb 
+# Start time: 23:16:43 on Oct 20,2018
+# Loading sv_std.std
+# Loading cpu-mips.is_equal_tb
+# Loading cpu-mips.is_equal
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/is_equal_tb.sv(15): [PCDPC] - Port size (1) does not match connection size (32) for port 'EQUAL'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/is_equal.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /is_equal_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/is_equal.sv
+add wave -position end  sim:/is_equal_tb/WIDTH
+add wave -position end  sim:/is_equal_tb/enable
+add wave -position end  sim:/is_equal_tb/data_in_1
+add wave -position end  sim:/is_equal_tb/data_in_2
+add wave -position end  sim:/is_equal_tb/equal
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 34 compiles, 0 failed with no errors.
+# Compile of cpu.sv failed with 6 errors.
+# Compile of cpu_tb.sv was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of cpu.sv failed with 3 errors.
+# Compile of cpu_tb.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of cpu.sv failed with 2 errors.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 1 failed with 1 error.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 1 failed with 1 error.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 1 failed with 1 error.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 1 failed with 1 error.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 0 failed with no errors.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# 36 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 00:01:59 on Oct 21,2018, Elapsed time: 0:45:16
+# Errors: 0, Warnings: 2
+# vsim cpu-mips.cpu_tb 
+# Start time: 00:01:59 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# ** Error: (vsim-3033) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(125): Instantiation of 'and_gate' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+#         Searched libraries:
+#             /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/simulation/cpu-mips
+# Loading work.sign_extend
+# Loading work.shifter
+# Loading work.pipe_de
+# Loading work.mux_3x1
+# Loading work.alu
+# Loading work.pipe_em
+# Loading work.ram
+# Loading work.pipe_mw
+# Loading work.mux_2x1
+# Error loading design
+# End time: 00:02:00 on Oct 21,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# vsim cpu-mips.cpu_tb 
+# Start time: 00:02:51 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(138): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(146): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(146): [PCDPC] - Port size (5) does not match connection size (1) for port 'WRITE_REG_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(177): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(193): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(193): [PCDPC] - Port size (5) does not match connection size (1) for port 'WRITE_REG_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(241): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(241).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+add wave -position end sim:/cpu_tb/DUT/*
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(138): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(146): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(146): [PCDPC] - Port size (5) does not match connection size (1) for port 'WRITE_REG_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(177): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(193): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(193): [PCDPC] - Port size (5) does not match connection size (1) for port 'WRITE_REG_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(241): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(241).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(55)
+#    Time: 150 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 55
+# Compile of cpu.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 00:20:14 on Oct 21,2018, Elapsed time: 0:17:23
+# Errors: 0, Warnings: 17
+# vsim cpu-mips.cpu_tb 
+# Start time: 00:20:14 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(139): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(147): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(178): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(194): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(242): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(242).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+# Load canceled
+vsim cpu-mips.reg_bank_tb
+# End time: 00:21:29 on Oct 21,2018, Elapsed time: 0:01:15
+# Errors: 1, Warnings: 6
+# vsim cpu-mips.reg_bank_tb 
+# Start time: 00:21:29 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+# Compile of reg_bank.sv was successful with warnings.
+add wave -position end  sim:/reg_bank_tb/WIDTH
+add wave -position end  sim:/reg_bank_tb/TOTAL_REGS
+add wave -position end  sim:/reg_bank_tb/clk
+add wave -position end  sim:/reg_bank_tb/we3
+add wave -position end  sim:/reg_bank_tb/ra1
+add wave -position end  sim:/reg_bank_tb/ra2
+add wave -position end  sim:/reg_bank_tb/ra3
+add wave -position end  sim:/reg_bank_tb/wd3
+add wave -position end  sim:/reg_bank_tb/rd1
+add wave -position end  sim:/reg_bank_tb/rd2
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful with warnings.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+run -continue
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+restart
+# Compile of reg_bank.sv was successful.
+restart
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of reg_bank.sv was successful.
+restart
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(68)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 68
+# Compile of reg_bank_tb.sv was successful.
+restart
+# Loading cpu-mips.reg_bank_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of reg_bank.sv was successful.
+restart
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of reg_bank.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of cpu.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 00:31:59 on Oct 21,2018, Elapsed time: 0:10:30
+# Errors: 0, Warnings: 7
+# vsim cpu-mips.cpu_tb 
+# Start time: 00:31:59 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+add wave -position end sim:/cpu_tb/DUT/*
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(55)
+#    Time: 150 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 55
+# Compile of cpu_tb.sv was successful.
+restart
+# Loading cpu-mips.cpu_tb
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(59)
+#    Time: 250 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 59
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(59)
+#    Time: 250 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 59
+# Compile of cpu_tb.sv was successful.
+restart
+# Loading cpu-mips.cpu_tb
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of cpu.sv was successful.
+restart
+# Loading cpu-mips.cpu
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of reg_bank.sv was successful.
+# Compile of cpu.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 01:00:58 on Oct 21,2018, Elapsed time: 0:28:59
+# Errors: 0, Warnings: 54
+# vsim cpu-mips.cpu_tb 
+# Start time: 01:00:58 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (16) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (16) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (16) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+add wave -position end sim:/cpu_tb/DUT/*
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of cpu.sv was successful.
+restart
+# Loading cpu-mips.cpu
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of cpu.sv was successful.
+restart
+# Loading cpu-mips.cpu
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (6) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (6) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (6) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+restart
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of reg_bank.sv was successful.
+# Compile of cpu.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu
+# Loading cpu-mips.reg_bank
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of reg_bank.sv was successful.
+# Compile of cpu.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu
+# Loading cpu-mips.reg_bank
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (4) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (4) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (4) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of cpu.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# Compile of cpu.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(111): [PCDPC] - Port size (32) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/rb File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+vsim cpu-mips.reg_bank_tb
+# End time: 01:11:07 on Oct 21,2018, Elapsed time: 0:10:09
+# Errors: 0, Warnings: 81
+# vsim cpu-mips.reg_bank_tb 
+# Start time: 01:11:07 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+add wave -position end  sim:/reg_bank_tb/WIDTH
+add wave -position end  sim:/reg_bank_tb/TOTAL_REGS
+add wave -position end  sim:/reg_bank_tb/clk
+add wave -position end  sim:/reg_bank_tb/we3
+add wave -position end  sim:/reg_bank_tb/ra1
+add wave -position end  sim:/reg_bank_tb/ra2
+add wave -position end  sim:/reg_bank_tb/ra3
+add wave -position end  sim:/reg_bank_tb/wd3
+add wave -position end  sim:/reg_bank_tb/rd1
+add wave -position end  sim:/reg_bank_tb/rd2
+run -continue
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+run
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 660 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of reg_bank_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_bank_tb
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 220 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+run
+restart
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 220 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(20): [PCDPC] - Port size (25) does not match connection size (5) for port 'RA1'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_bank_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(20): [PCDPC] - Port size (25) does not match connection size (5) for port 'RA2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_bank_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(20): [PCDPC] - Port size (25) does not match connection size (5) for port 'RA3'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /reg_bank_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/reg_bank.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 520 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.reg_bank_tb
+# Loading cpu-mips.reg_bank
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv(72)
+#    Time: 520 ns  Iteration: 0  Instance: /reg_bank_tb
+# Break in Module reg_bank_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_bank_tb.sv line 72
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 01:17:57 on Oct 21,2018, Elapsed time: 0:06:50
+# Errors: 0, Warnings: 9
+# vsim cpu-mips.cpu_tb 
+# Start time: 01:17:57 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+add wave -position end sim:/cpu_tb/DUT/*
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(62)
+#    Time: 260 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 62
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of instruction_rom.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 01:40:24 on Oct 21,2018, Elapsed time: 0:22:27
+# Errors: 2, Warnings: 8
+# vsim cpu-mips.cpu_tb 
+# Start time: 01:40:24 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# Loading cpu-mips.instruction_rom
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(50)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 50
+add wave -position end sim:/cpu_tb/DUT/*
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(50)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 50
+# Compile of cpu_tb.sv was successful.
+restart
+# Loading cpu-mips.cpu_tb
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# 37 compiles, 0 failed with no errors.
+vsim cpu-mips.cpu_tb
+# End time: 01:49:40 on Oct 21,2018, Elapsed time: 0:09:16
+# Errors: 0, Warnings: 20
+# vsim cpu-mips.cpu_tb 
+# Start time: 01:49:40 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.ram
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.mux_2x1
+# Loading cpu-mips.instruction_rom
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end  sim:/cpu_tb/WIDTH
+add wave -position end  sim:/cpu_tb/clk
+add wave -position end  sim:/cpu_tb/reset
+add wave -position end  sim:/cpu_tb/instr
+add wave -position end  sim:/cpu_tb/read_mem_data
+add wave -position end  sim:/cpu_tb/pc
+add wave -position end  sim:/cpu_tb/mem_address
+add wave -position end  sim:/cpu_tb/write_mem_data_enable
+add wave -position end  sim:/cpu_tb/write_mem_data
+add wave -position end sim:/cpu_tb/DUT/*
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(58)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 58
+# Compile of instruction_rom.sv was successful.
+# Compile of ram_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.instruction_rom
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(140): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(148): [PCDPC] - Port size (5) does not match connection size (1) for port 'RS_D'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_de File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(179): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(195): [PCDPC] - Port size (32) does not match connection size (1) for port 'WRITE_DATA_E'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/p_em File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_em.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(243).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(58)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 58

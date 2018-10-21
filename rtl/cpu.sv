@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module cpu
+module cpu #( parameter WIDTH = 32 )
 (
     input logic CLK,
     input logic RESET,
@@ -7,11 +7,9 @@ module cpu
     input logic [WIDTH-1:0] READ_MEM_DATA,
     output logic [WIDTH-1:0] PC,
     output logic [WIDTH-1:0] MEM_ADDR,
-    output logic [WIDTH-1:0] WRITE_MEM_EN,
+    output logic WRITE_MEM_EN,
     output logic [WIDTH-1:0] WRITE_MEM_DATA
 );
-
-parameter WIDTH = 32;
 
 logic [WIDTH-1:0] temp_pc;
 logic [WIDTH-1:0] const_four;
@@ -40,6 +38,7 @@ logic [WIDTH-1:0] signimm_d;
 logic [WIDTH-1:0] pcplus4_d;
 logic [WIDTH-1:0] signimm_ext_d;
 logic [2:0] shift_d;
+logic notequal_d;
 
 logic regwrite_e;
 logic memtoreg_e;
@@ -56,6 +55,7 @@ logic [2:0] shift_e;
 logic [WIDTH-1:0] srca_e;
 logic [WIDTH-1:0] srcb_e;
 logic [WIDTH-1:0] aluout_e;
+logic [4:0] writereg_e;
 
 logic regwrite_m;
 logic memtoreg_m;
@@ -76,6 +76,7 @@ logic [WIDTH-1:0] result_w;
 /* FETCH */
 pipe_wf p_wf(
     .CLK( CLK ),
+    .CLR( RESET ),
     .PC( temp_pc ),
     .PC_F( pc_f )
 );
@@ -96,29 +97,29 @@ pipe_fd p_fd(
     .INSTR_D( instr_d ),
     .PCPLUS4_D( pcplus4_d )
 );
-/*control_unit cu(
+control_unit cu(
     .OP( instr_d[31:26] ),
-    .SHIFT( instr_d[3:1] ),
     .VEC( instr_d[0] ),
     .REG_WRITE( regwrite_d ),
     .MEM_TO_REG( memtoreg_d ),
     .MEM_WRITE( memwrite_d ),
     .ALU_CONTROL( alucontrol_d ),
     .ALU_SRC( alusrc_d ),
-    .REG_DST( regdst_d ),
-    .BRANCH( branch_d )
-);*/
-reg_bank #(WIDTH, 5) rb(
+    .BRANCH( branch_d ),
+    .NOT_EQUAL( notequal_d )
+);
+reg_bank #(WIDTH, WIDTH) rb(
     .CLK( CLK ),
     .WE3( regwrite_w ),
-    .RA1( /*instr_d[20:16]*/ ),
-    .RA1( /*instr_d[15:11]*/ ),
+    .RA1( instr_d[20:16] ),
+    .RA2( instr_d[15:11] ),
     .RA3( writereg_w ),
     .WD3( result_w ),
     .RD1( rd1_d ),
     .RD2( rd2_d )
 );
 is_equal #(WIDTH) ie(
+    .ENABLE( notequal_d ),
     .DATA_IN_1( rd2_d ),
     .DATA_IN_2( rd1_d ),
     .EQUAL( equal_d )
@@ -132,7 +133,7 @@ sign_extend #(WIDTH) se(
     .DATA( instr_d[15:0] ),
     .EXTENDED( signimm_d )
 );
-shifter sh(
+shifter #(WIDTH) sh(
     .DATA( signimm_d ),
     .SHIFTED( signimm_ext_d )
 );
@@ -154,12 +155,12 @@ pipe_de #(WIDTH) p_de(
     .ALU_SRC_D( alusrc_d ),
     .RD1_D( rd1_d ),
     .RD2_D( rd2_d ),
-    .RA1_D( ra1_d ),
-    .RA2_D( rd2_d ),
+    .RA1_D( instr_d[20:16] ),
+    .RA2_D( instr_d[15:11] ),
     .RS_D( rs_d ),
     .SIGN_IMM_D( signimm_d ),
     .SHIFT_D( instr_d[3:1] ),
-    .WRITE_REG_D( instr_d[25:21] );
+    .WRITE_REG_D( instr_d[25:21] ),
 
     .REG_WRITE_E( regwrite_e ),
     .MEM_TO_REG_E( memtoreg_e ),
@@ -173,7 +174,7 @@ pipe_de #(WIDTH) p_de(
     .RS_E( rs_e ),
     .SIGN_IMM_E( signimm_e ),
     .SHIFT_E( shift_e ),
-    .WRITE_REG_E( writereg_e );
+    .WRITE_REG_E( writereg_e )
 );
 mux_3x1 #(WIDTH) m_2(
     .SELECT( alusrc_e ),
@@ -245,5 +246,12 @@ mux_2x1 m_1(
     .DATA_IN_2( pcbranch_d ),
     .DATA_OUT( temp_pc )
 );
+
+/**************************************/
+/* OUTPUTS */
+assign PC = pc_f;
+assign MEM_ADDR = aluout_m;
+assign WRITE_MEM_EN = memwrite_m;
+assign WRITE_MEM_DATA = writedata_m;
 
 endmodule

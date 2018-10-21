@@ -2,14 +2,14 @@
 module reg_bank_tb;
 
     parameter WIDTH = 32;
-    parameter TOTAL_REGS = 32;
+    parameter TOTAL_REGS = 25;
 
 	// Inputs
 	bit clk;
     bit we3;
-    logic [TOTAL_REGS-1:0] ra1;
-    logic [TOTAL_REGS-1:0] ra2;
-    logic [TOTAL_REGS-1:0] ra3;
+    logic [5-1:0] ra1;
+    logic [5-1:0] ra2;
+    logic [5-1:0] ra3;
     logic [WIDTH-1:0] wd3;
 	
 	//Outputs
@@ -37,24 +37,28 @@ module reg_bank_tb;
 
 	initial begin
 		// Initialize Inputs
-		ra1 = 4'bxxxx;
-        ra2 = 4'bxxxx;
-        ra3 = 4'bxxxx;
-        wd3 = 4'bxxxx;
+		ra1 = 4'b0;
+        ra2 = 4'b0;
+        ra3 = 4'b0;
+        wd3 = 4'b0;
     
 		// Add stimulus here
         ra3 = 4'b0000;
         we3 = 1'b1;
         wd3 = 32'd100;
+        ra1 = 4'b0000;
+        ra2 = 4'b0001;
         for( int i=0; i<TOTAL_REGS; i++ ) begin
             #10;
             ra3 = ra3 + 1'b1;    
             wd3 = wd3 + 32'd1;
+            ra1 = ra1 + 2'b10;
+            ra2 = ra2 + 2'b10;
         end
 
         we3 = 1'b0;
-        ra3 = 4'bxxxx;
-        wd3 = 32'bx;
+        ra3 = 4'b0;
+        wd3 = 32'b0;
 
         #20;
         ra1 = 4'b0000;
