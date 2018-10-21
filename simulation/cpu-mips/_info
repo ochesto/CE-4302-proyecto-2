@@ -10,7 +10,7 @@ cModel Technology
 d/home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/linuxaloem
 vadder
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1540121347
+Z1 !s110 1540155936
 !i10b 1
 !s100 I1:zA5DR;cocLU[zZNCIV1
 I2JYCV]3k6OT:51I^b5lkK2
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1540121347.000000
+Z5 !s108 1540155936.000000
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv|
 !i113 1
@@ -58,7 +58,7 @@ R6
 R7
 valu
 R0
-Z8 !s110 1540121348
+Z8 !s110 1540155937
 !i10b 1
 !s100 =KGUX=Z@@FTCl7dmEjcXk2
 IOjHOiWX7alU9ElzDWf@Iz0
@@ -74,7 +74,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1540121348.000000
+Z9 !s108 1540155937.000000
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv|
 !i113 1
@@ -106,7 +106,7 @@ R6
 R7
 vand_gate
 R0
-Z10 !s110 1540121349
+Z10 !s110 1540155938
 !i10b 1
 !s100 D8zcNV0mIWJYz2^Ca_Lz41
 ITe=8_z<0;fVX;NLhP;7Az2
@@ -122,7 +122,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1540121349.000000
+Z11 !s108 1540155938.000000
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/and_gate.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/and_gate.sv|
 !i113 1
@@ -180,13 +180,13 @@ vcpu
 R0
 R10
 !i10b 1
-!s100 REWiJg<JUn>TZ81l>8i0O3
-I<LQ<OQ=lQ1SDTShGH>=nK1
+!s100 S^iPY1hJebcMCb24Z=TPY1
+Ik=4g?I8;l2B[D7CFcdESO2
 R2
 !s105 cpu_sv_unit
 S1
 R3
-w1540116794
+w1540155916
 8/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
 F/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
 L0 2
@@ -204,13 +204,13 @@ vcpu_tb
 R0
 R10
 !i10b 1
-!s100 X>1:7VV@Xn:@H>fV`1?5S2
-IRD_jdYFm<^?RM:VPifaE>2
+!s100 773f0JeKKMWaLG4YfQBCV0
+IGEWBf_LdH6N?]gVnEHP=92
 R2
 !s105 cpu_tb_sv_unit
 S1
 R3
-w1540121257
+w1540155868
 8/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv
 F/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv
 L0 2
@@ -248,7 +248,7 @@ R7
 nini@ram
 vinstruction_rom
 R0
-!s110 1540123100
+Z12 !s110 1540155935
 !i10b 1
 !s100 <Gah:><ZSBimZj^<KTb3V1
 I43VCUoZdnh=NAREN:2BWH3
@@ -264,7 +264,7 @@ R4
 r1
 !s85 0
 31
-!s108 1540123100.000000
+Z13 !s108 1540155935.000000
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/instruction_rom.sv|
 !i113 1
@@ -272,7 +272,7 @@ R6
 R7
 vinstruction_rom_tb
 R0
-Z12 !s110 1540121346
+R12
 !i10b 1
 !s100 ZlmU@OneBo^c8?cmk1LcK3
 Iojc[D^dAZ7HLSk0>KEB]a3
@@ -288,7 +288,7 @@ R4
 r1
 !s85 0
 31
-Z13 !s108 1540121346.000000
+R13
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/instruction_rom_tb.sv|
 !i113 1
@@ -392,7 +392,7 @@ R6
 R7
 vmux_3x1
 R0
-R8
+R10
 !i10b 1
 !s100 2V[BmX7zCg9K>8Rc5n4n`0
 I_W1PVnoeG3E90E?bhgVoH2
@@ -432,7 +432,7 @@ R4
 r1
 !s85 0
 31
-R9
+R11
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/mux_3x1_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/mux_3x1_tb.sv|
 !i113 1
@@ -728,7 +728,7 @@ R6
 R7
 vram
 R0
-!s110 1540121644
+R10
 !i10b 1
 !s100 J79O<4P7DMDJSko0Z:3eE1
 I]f3[LO>?nBzgOzeSW]jX>3
@@ -744,7 +744,7 @@ R4
 r1
 !s85 0
 31
-!s108 1540121644.000000
+R11
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/ram.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/ram.sv|
 !i113 1
@@ -824,7 +824,7 @@ R6
 R7
 vreg_en
 R0
-R12
+R1
 !i10b 1
 !s100 VDDVV]5bGhI0B=bc9V`IT3
 IUn;B0ia@?nnG<RBi:d^[=2
@@ -864,9 +864,57 @@ R4
 r1
 !s85 0
 31
-R13
+R5
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/reg_en_tb.sv|
+!i113 1
+R6
+R7
+vselector_out
+R0
+R10
+!i10b 1
+!s100 ZIeI1fO2_6Y@FZ1oEeabJ3
+IB6Y<kCd;T]T`iKX6gY1j03
+R2
+!s105 selector_out_sv_unit
+S1
+R3
+w1540154122
+8/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/selector_out.sv
+F/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/selector_out.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/selector_out.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/selector_out.sv|
+!i113 1
+R6
+R7
+vselector_out_tb
+R0
+R10
+!i10b 1
+!s100 5[5;RbAC3nG3`CU?AVKAN1
+IEaI^VVHgf@Keff:KZ?XMD3
+R2
+!s105 selector_out_tb_sv_unit
+S1
+R3
+w1540154233
+8/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/selector_out_tb.sv
+F/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/selector_out_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R11
+!s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/selector_out_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/selector_out_tb.sv|
 !i113 1
 R6
 R7
@@ -888,7 +936,7 @@ R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/shifter.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/shifter.sv|
 !i113 1
@@ -944,7 +992,7 @@ R6
 R7
 vsign_extend_tb
 R0
-R1
+R8
 !i10b 1
 !s100 OTk2D?mPzcPQG]MGfGzTC1
 Il]mWBnDH5UO67Ccz6zQ@E2

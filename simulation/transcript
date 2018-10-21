@@ -5634,3 +5634,447 @@ run
 # ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(66)
 #    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
 # Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 66
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# Compile of new_ram.v was successful.
+# 38 compiles, 0 failed with no errors.
+# Compile of selector_out.sv failed with 1 errors.
+# Compile of selector_out_tb.sv failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of selector_out.sv failed with 1 errors.
+# Compile of selector_out_tb.sv failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of selector_out.sv was successful.
+# Compile of selector_out_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of selector_out_tb.sv failed with 1 errors.
+# Compile of selector_out_tb.sv was successful.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# ** Error: (vsim-3033) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(213): Instantiation of 'mux2x1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+#         Searched libraries:
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/altera_mf
+#             /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/simulation/cpu-mips
+# Loading work.selector_out
+# Loading work.pipe_mw
+# Loading work.mux_2x1
+# Loading work.instruction_rom
+# Loading work.ram
+vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.selector_out_tb
+# vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.selector_out_tb 
+# Start time: 05:29:20 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.selector_out_tb
+# Loading cpu-mips.selector_out
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/CLK'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/RESET'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/INSTR'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/READ_MEM_DATA'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/PC'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/MEM_ADDR'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/WRITE_MEM_EN'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/WRITE_MEM_DATA'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/temp_pc'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/const_four'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/pc_f'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/pcplus4_f'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/instr_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/regwrite_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memtoreg_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memwrite_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/alucontrol_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/alusrc_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/branch_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/pcsrc_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/pcbranch_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/rd1_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/rd2_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/signimm_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/pcplus4_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/signimm_ext_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/shift_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/notequal_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/equal_d'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/regwrite_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memtoreg_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memwrite_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/alucontrol_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/alusrc_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/rd1_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/rd2_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/ra1_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/ra2_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/rs_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/signimm_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/shift_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/srca_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/srcb_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/aluout_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/writereg_e'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/regwrite_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memtoreg_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memwrite_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/aluout_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/writedata_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/writereg_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/readdata_m'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/regwrite_w'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/memtoreg_w'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/readdata_w'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/aluout_w'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/writereg_w'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/result_w'. 
+add wave -position end  sim:/selector_out_tb/WIDTH
+add wave -position end  sim:/selector_out_tb/select
+add wave -position end  sim:/selector_out_tb/data_in
+add wave -position end  sim:/selector_out_tb/data_out_0
+add wave -position end  sim:/selector_out_tb/data_out_1
+restart
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# Compile of cpu.sv was successful.
+# Compile of selector_out_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Break key hit
+vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb
+# End time: 14:55:36 on Oct 21,2018, Elapsed time: 9:26:16
+# Errors: 59, Warnings: 20
+# vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb 
+# Start time: 14:55:36 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# ** Error: (vsim-3033) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(221): Instantiation of 'mux2x1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+#         Searched libraries:
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             /home/ochesto/Apps/intelFPGA_lite/18.1/modelsim_ase/altera/vhdl/altera_mf
+#             /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/simulation/cpu-mips
+# Loading work.selector_out
+# Loading work.pipe_mw
+# Loading work.mux_2x1
+# Loading work.instruction_rom
+# Loading work.ram
+# Error loading design
+# End time: 14:55:37 on Oct 21,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of cpu.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# Compile of new_ram.v was successful.
+# Compile of selector_out.sv was successful.
+# Compile of selector_out_tb.sv was successful.
+# 40 compiles, 0 failed with no errors.
+vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb
+# vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb 
+# Start time: 14:57:00 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.mux_2x1
+# Loading cpu-mips.selector_out
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.instruction_rom
+# Loading cpu-mips.ram
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(151): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(188): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(221): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_3 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(264): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(18): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(264).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end sim:/cpu_tb/DUT/*
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(66)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 66
+# Compile of cpu.sv failed with 1 errors.
+# Compile of cpu_tb.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of cpu.sv was successful.
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# Compile of new_ram.v was successful.
+# Compile of selector_out.sv was successful.
+# Compile of selector_out_tb.sv was successful.
+# 40 compiles, 0 failed with no errors.
+restart
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.mux_2x1
+# Loading cpu-mips.selector_out
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.instruction_rom
+# Loading cpu-mips.ram
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(147): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(184): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(217): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_3 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(20): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/switch_0'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/cpu_tb/DUT/switch_1'. 
+# Compile of instruction_rom.sv was successful.
+# Compile of instruction_rom_tb.sv was successful.
+# Compile of reg_bank.sv was successful.
+# Compile of reg_bank_tb.sv was successful.
+# Compile of reg_en.sv was successful.
+# Compile of reg_en_tb.sv was successful.
+# Compile of adder.sv was successful.
+# Compile of adder_tb.sv was successful.
+# Compile of mux_2x1.sv was successful.
+# Compile of mux_2x1_tb.sv was successful.
+# Compile of pipe_wf.sv was successful.
+# Compile of pipe_wf_tb.sv was successful.
+# Compile of pipe_fd.sv was successful.
+# Compile of pipe_fd_tb.sv was successful.
+# Compile of is_equal.sv was successful.
+# Compile of is_equal_tb.sv was successful.
+# Compile of sign_extend.sv was successful.
+# Compile of sign_extend_tb.sv was successful.
+# Compile of shifter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# Compile of pipe_de.sv was successful.
+# Compile of pipe_de_tb.sv was successful.
+# Compile of pipe_em.sv was successful.
+# Compile of pipe_em_tb.sv was successful.
+# Compile of pipe_mw.sv was successful.
+# Compile of pipe_mw_tb.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of control_unit_tb.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of alu_tb.sv was successful.
+# Compile of mux_3x1.sv was successful.
+# Compile of mux_3x1_tb.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of ram_tb.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of cpu_tb.sv was successful.
+# Compile of and_gate.sv was successful.
+# Compile of new_ram.v was successful.
+# Compile of selector_out.sv was successful.
+# Compile of selector_out_tb.sv was successful.
+# 40 compiles, 0 failed with no errors.
+vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb
+# End time: 15:05:47 on Oct 21,2018, Elapsed time: 0:08:47
+# Errors: 2, Warnings: 11
+# vsim -L altera_mf -Lf altera_ver -Lf altera_mf_ver cpu-mips.cpu_tb 
+# Start time: 15:05:47 on Oct 21,2018
+# Loading sv_std.std
+# Loading cpu-mips.cpu_tb
+# Loading cpu-mips.cpu
+# Loading cpu-mips.pipe_wf
+# Loading cpu-mips.adder
+# Loading cpu-mips.pipe_fd
+# Loading cpu-mips.control_unit
+# Loading cpu-mips.reg_bank
+# Loading cpu-mips.is_equal
+# Loading cpu-mips.and_gate
+# Loading cpu-mips.sign_extend
+# Loading cpu-mips.shifter
+# Loading cpu-mips.pipe_de
+# Loading cpu-mips.mux_3x1
+# Loading cpu-mips.alu
+# Loading cpu-mips.pipe_em
+# Loading cpu-mips.mux_2x1
+# Loading cpu-mips.selector_out
+# Loading cpu-mips.pipe_mw
+# Loading cpu-mips.instruction_rom
+# Loading cpu-mips.ram
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(147): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(184): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(217): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_3 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(20): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+add wave -position end sim:/cpu_tb/DUT/*
+restart
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(147): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_OUT'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/add_sig File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(184): [PCDPC] - Port size (32) does not match connection size (3) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_2 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_3x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(217): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_3 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3015) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260): [PCDPC] - Port size (32) does not match connection size (1) for port 'DATA_IN_2'. The port definition is at: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/m_1 File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/mux_2x1.sv
+# ** Warning: (vsim-3839) /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(20): Variable '/cpu_tb/DUT/temp_pc', driven via a port connection, is multiply driven. See /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv(260).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+run
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Note: $stop    : /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv(72)
+#    Time: 600 ns  Iteration: 0  Instance: /cpu_tb
+# Break in Module cpu_tb at /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv line 72

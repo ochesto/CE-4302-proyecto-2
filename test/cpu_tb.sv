@@ -8,6 +8,8 @@ module cpu_tb;
     logic reset;
     logic [WIDTH-1:0] instr;
     logic [WIDTH-1:0] read_mem_data;
+    logic switch_0;
+    logic switch_1;
 	
 	//Outputs
     logic [WIDTH-1:0] pc;
@@ -21,6 +23,8 @@ module cpu_tb;
         .RESET( reset ),
         .INSTR( instr ),
         .READ_MEM_DATA( read_mem_data ),
+        .SWITCH_0( switch_0 ),
+        .SWITCH_1( switch_1 ),
         .PC( pc ),
         .MEM_ADDR( mem_address ),
         .WRITE_MEM_EN( write_mem_data_enable ),
@@ -59,6 +63,8 @@ module cpu_tb;
 
 	initial begin
         reset = 1;
+        switch_0 = 0;
+        switch_1 = 0;
         #100;
         reset = 0;
 
