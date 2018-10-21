@@ -17,7 +17,7 @@ initial begin
     temp_pc_plus4 = {32{1'b0}};
 end
 
-always@( posedge CLK or posedge CLR ) begin
+always@( negedge CLK or posedge CLR ) begin
     if( CLR ) begin
         temp_instr = {32{1'b1}};
         temp_pc_plus4 = {32{1'b1}};

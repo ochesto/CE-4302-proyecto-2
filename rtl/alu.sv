@@ -19,7 +19,18 @@ parameter ALU_SLV = 4'b0111;
 parameter ALU_SRV = 4'b1000;
 parameter ALU_SCLV = 4'b1001;
 parameter ALU_SCRV = 4'b1010;
+parameter ALU_MUX_A = 4'b1011;
+parameter ALU_MUX_B = 4'b1100;
 parameter ALU_NOP = 4'b1111;
+
+parameter SHIFT_0 = 3'b000;
+parameter SHIFT_1 = 3'b001;
+parameter SHIFT_2 = 3'b010;
+parameter SHIFT_3 = 3'b011;
+parameter SHIFT_4 = 3'b100;
+parameter SHIFT_5 = 3'b101;
+parameter SHIFT_6 = 3'b110;
+parameter SHIFT_7 = 3'b111;
 
 logic[WIDTH-1:0] result;
 logic[7:0] a_0, a_1, a_2, a_3;
@@ -92,22 +103,140 @@ always_comb begin
 
         /* TODO: All shift cases */
         ALU_SCLV: begin
-            result[7:0] = {a_0[7-4:0],a_0[7:7-4]};
-            result[15:8] = {a_1[7-4:0],a_1[7:7-4]};
-            result[23:16] = {a_2[7-4:0],a_2[7:7-4]};
-            result[31:24] = {a_3[7-4:0],a_3[7:7-4]};
+            case( shift[2:0] )
+                
+                SHIFT_0: begin
+                    result[7:0] = {a_0[7-0:0],a_0[7:7-0]};
+                    result[15:8] = {a_1[7-0:0],a_1[7:7-0]};
+                    result[23:16] = {a_2[7-0:0],a_2[7:7-0]};
+                    result[31:24] = {a_3[7-0:0],a_3[7:7-0]};
+                end
+
+                SHIFT_1: begin
+                    result[7:0] = {a_0[7-1:0],a_0[7:7-1]};
+                    result[15:8] = {a_1[7-1:0],a_1[7:7-1]};
+                    result[23:16] = {a_2[7-1:0],a_2[7:7-1]};
+                    result[31:24] = {a_3[7-1:0],a_3[7:7-1]};
+                end
+
+                SHIFT_2: begin
+                    result[7:0] = {a_0[7-2:0],a_0[7:7-2]};
+                    result[15:8] = {a_1[7-2:0],a_1[7:7-2]};
+                    result[23:16] = {a_2[7-2:0],a_2[7:7-2]};
+                    result[31:24] = {a_3[7-2:0],a_3[7:7-2]};
+                end
+
+                SHIFT_3: begin
+                    result[7:0] = {a_0[7-3:0],a_0[7:7-3]};
+                    result[15:8] = {a_1[7-3:0],a_1[7:7-3]};
+                    result[23:16] = {a_2[7-3:0],a_2[7:7-3]};
+                    result[31:24] = {a_3[7-3:0],a_3[7:7-3]};
+                end
+
+                SHIFT_4: begin
+                    result[7:0] = {a_0[7-4:0],a_0[7:7-4]};
+                    result[15:8] = {a_1[7-4:0],a_1[7:7-4]};
+                    result[23:16] = {a_2[7-4:0],a_2[7:7-4]};
+                    result[31:24] = {a_3[7-4:0],a_3[7:7-4]};
+                end
+
+                SHIFT_5: begin
+                    result[7:0] = {a_0[7-5:0],a_0[7:7-5]};
+                    result[15:8] = {a_1[7-5:0],a_1[7:7-5]};
+                    result[23:16] = {a_2[7-5:0],a_2[7:7-5]};
+                    result[31:24] = {a_3[7-5:0],a_3[7:7-5]};
+                end
+
+                SHIFT_6: begin
+                    result[7:0] = {a_0[7-6:0],a_0[7:7-6]};
+                    result[15:8] = {a_1[7-6:0],a_1[7:7-6]};
+                    result[23:16] = {a_2[7-6:0],a_2[7:7-6]};
+                    result[31:24] = {a_3[7-6:0],a_3[7:7-6]};
+                end
+
+                SHIFT_7: begin
+                    result[7:0] = {a_0[7-7:0],a_0[7:7-7]};
+                    result[15:8] = {a_1[7-7:0],a_1[7:7-7]};
+                    result[23:16] = {a_2[7-7:0],a_2[7:7-7]};
+                    result[31:24] = {a_3[7-7:0],a_3[7:7-7]};
+                end
+
+            endcase
         end
 
         /* TODO: All shift cases */
         ALU_SCRV: begin
-            result[7:0] = {a_0[7-4:0],a_0[7:0+4]};
-            result[15:8] = {a_1[7-4:0],a_1[7:0+4]};
-            result[23:16] = {a_2[7-4:0],a_2[7:0+4]};
-            result[31:24] = {a_3[7-4:0],a_3[7:0+4]};
+            case( shift[2:0] )
+                
+                SHIFT_0: begin
+                    result[7:0] = {a_0[7-0:0],a_0[7:0+0]};
+                    result[15:8] = {a_1[7-0:0],a_1[7:0+0]};
+                    result[23:16] = {a_2[7-0:0],a_2[7:0+0]};
+                    result[31:24] = {a_3[7-0:0],a_3[7:0+0]};
+                end
+
+                SHIFT_1: begin
+                    result[7:0] = {a_0[7-1:0],a_0[7:0+1]};
+                    result[15:8] = {a_1[7-1:0],a_1[7:0+1]};
+                    result[23:16] = {a_2[7-1:0],a_2[7:0+1]};
+                    result[31:24] = {a_3[7-1:0],a_3[7:0+1]};
+                end
+
+                SHIFT_2: begin
+                    result[7:0] = {a_0[7-2:0],a_0[7:0+2]};
+                    result[15:8] = {a_1[7-2:0],a_1[7:0+2]};
+                    result[23:16] = {a_2[7-2:0],a_2[7:0+2]};
+                    result[31:24] = {a_3[7-2:0],a_3[7:0+2]};
+                end
+
+                SHIFT_3: begin
+                    result[7:0] = {a_0[7-3:0],a_0[7:0+3]};
+                    result[15:8] = {a_1[7-3:0],a_1[7:0+3]};
+                    result[23:16] = {a_2[7-3:0],a_2[7:0+3]};
+                    result[31:24] = {a_3[7-3:0],a_3[7:0+3]};
+                end
+
+                SHIFT_4: begin
+                    result[7:0] = {a_0[7-4:0],a_0[7:0+4]};
+                    result[15:8] = {a_1[7-4:0],a_1[7:0+4]};
+                    result[23:16] = {a_2[7-4:0],a_2[7:0+4]};
+                    result[31:24] = {a_3[7-4:0],a_3[7:0+4]};
+                end
+
+                SHIFT_5: begin
+                    result[7:0] = {a_0[7-5:0],a_0[7:0+5]};
+                    result[15:8] = {a_1[7-5:0],a_1[7:0+5]};
+                    result[23:16] = {a_2[7-5:0],a_2[7:0+5]};
+                    result[31:24] = {a_3[7-5:0],a_3[7:0+5]};
+                end
+
+                SHIFT_6: begin
+                    result[7:0] = {a_0[7-6:0],a_0[7:0+6]};
+                    result[15:8] = {a_1[7-6:0],a_1[7:0+6]};
+                    result[23:16] = {a_2[7-6:0],a_2[7:0+6]};
+                    result[31:24] = {a_3[7-6:0],a_3[7:0+6]};
+                end
+
+                SHIFT_7: begin
+                    result[7:0] = {a_0[7-7:0],a_0[7:0+7]};
+                    result[15:8] = {a_1[7-7:0],a_1[7:0+7]};
+                    result[23:16] = {a_2[7-7:0],a_2[7:0+7]};
+                    result[31:24] = {a_3[7-7:0],a_3[7:0+7]};
+                end
+
+            endcase
         end
 
         ALU_NOP: begin
             result = {32{1'b0}};
+        end
+
+        ALU_MUX_A: begin
+            result = SRC_A;
+        end
+
+        ALU_MUX_B: begin
+            result = SRC_B;
         end
 
         default: begin

@@ -12,7 +12,6 @@ module pipe_de #( parameter WIDTH = 32 )
     input logic [WIDTH-1:0] RD2_D,
     input logic [4:0] RA1_D,
     input logic [4:0] RA2_D,
-    input logic [4:0] RS_D,
     input logic [WIDTH-1:0] SIGN_IMM_D,
     input logic [2:0] SHIFT_D,
     input logic [4:0] WRITE_REG_D,
@@ -26,7 +25,6 @@ module pipe_de #( parameter WIDTH = 32 )
     output logic [WIDTH-1:0] RD2_E,
     output logic [4:0] RA1_E,
     output logic [4:0] RA2_E,
-    output logic [4:0] RS_E,
     output logic [WIDTH-1:0] SIGN_IMM_E,
     output logic [2:0] SHIFT_E,
     output logic [4:0] WRITE_REG_E
@@ -41,7 +39,6 @@ logic [WIDTH-1:0] temp_rd1;
 logic [WIDTH-1:0] temp_rd2;
 logic [4:0] temp_ra1;
 logic [4:0] temp_ra2;
-logic [4:0] temp_rs;
 logic [WIDTH-1:0] temp_signimm;
 logic [2:0] temp_shift;
 logic [4:0] temp_writereg;
@@ -56,7 +53,6 @@ initial begin
     temp_rd2 = {32{1'b0}};
     temp_ra1 = {5{1'b0}};
     temp_ra2 = {5{1'b0}};
-    temp_rs = {5{1'b0}};
     temp_signimm = {32{1'b0}};
     temp_shift = {3{1'b0}};
     temp_writereg = {5{1'b0}};
@@ -73,7 +69,6 @@ always@( negedge CLK or posedge CLR ) begin
         temp_rd2 = {32{1'b0}};
         temp_ra1 = {5{1'b0}};
         temp_ra2 = {5{1'b0}};
-        temp_rs = {5{1'b0}};
         temp_signimm = {32{1'b0}};
         temp_shift = {3{1'b0}};
         temp_writereg = {5{1'b0}};
@@ -88,7 +83,6 @@ always@( negedge CLK or posedge CLR ) begin
         temp_rd2 = RD2_D;
         temp_ra1 = RA1_D;
         temp_ra2 = RA2_D;
-        temp_rs = RS_D;
         temp_signimm = SIGN_IMM_D;
         temp_shift = SHIFT_D;
         temp_writereg = WRITE_REG_D;
@@ -104,7 +98,6 @@ assign RD1_E = temp_rd1;
 assign RD2_E = temp_rd2;
 assign RA1_E = temp_ra1;
 assign RA2_E = temp_ra2;
-assign RS_E = temp_rs;
 assign SIGN_IMM_E = temp_signimm;
 assign SHIFT_E = temp_shift;
 assign WRITE_REG_E = temp_writereg;

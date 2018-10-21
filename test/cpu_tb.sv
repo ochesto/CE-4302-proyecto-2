@@ -40,7 +40,15 @@ module cpu_tb;
         .ADDRESS( mem_address ), 
         .WD( write_mem_data ),
         .RD( read_mem_data )
-    );    
+    );
+    /*iniRam nr(
+        .address( mem_address ),
+        .clock( clk ),
+        .data( write_mem_data ),
+        .wren( write_mem_data_enable ),
+        .q( read_mem_data )
+    );*/
+
     initial begin
 		clk = 1'b0;
 		forever begin

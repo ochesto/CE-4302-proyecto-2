@@ -75,6 +75,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	pipe_de_tb
 
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_wf.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_wf.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module pipe_wf
@@ -96,12 +103,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	pipe_em_tb
 
-} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/alu.sv
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module alu
+-- Compiling module cpu_tb
 
 Top level modules:
-	alu
+	cpu_tb
 
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/ram_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -109,13 +116,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	ram_tb
-
-} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/cpu_tb.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cpu_tb
-
-Top level modules:
-	cpu_tb
 
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/test/control_unit_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -159,6 +159,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	shifter
 
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/new_ram.v {1 {vlog -work work -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/new_ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module iniRam
+
+Top level modules:
+	iniRam
+
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/pipe_de.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module pipe_de
@@ -173,19 +180,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	ram
 
-} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cpu
-
-Top level modules:
-	cpu
-
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/control_unit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module control_unit
 
 Top level modules:
 	control_unit
+
+} {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/cpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu
+
+Top level modules:
+	cpu
 
 } {} {}} /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv {1 {vlog -work work -sv -stats=none /home/ochesto/TEC/Arqui-II/Proyectos/CE-4302-proyecto-2/rtl/adder.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

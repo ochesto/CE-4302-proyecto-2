@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 module control_unit
 (
+input logic CLK,
 input logic [31:26] OP,
 input logic [0:0] VEC,
 output logic REG_WRITE,
@@ -45,6 +46,8 @@ parameter ALU_SLV = 4'b0111;
 parameter ALU_SRV = 4'b1000;
 parameter ALU_SCLV = 4'b1001;
 parameter ALU_SCRV = 4'b1010;
+parameter ALU_MUX_A = 4'b1011;
+parameter ALU_MUX_B = 4'b1100;
 parameter ALU_NOP = 4'b1111;
 
 parameter BIT_OFF = 1'b0;
@@ -56,7 +59,7 @@ parameter ALU_SRC_SE = 2'b10;
 
 logic [10:0] controls;
 
-always_comb begin
+always@( posedge CLK ) begin
 case(OP)
 	
 	ADD: begin
@@ -116,11 +119,11 @@ case(OP)
 	end
 
 	SW: begin
-			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
+			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_MUX_A,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	SWV: begin
-			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_ADD,ALU_SRC_RD,BIT_OFF,BIT_OFF};
+			controls = {BIT_OFF,BIT_OFF,BIT_ON,ALU_MUX_A,ALU_SRC_RD,BIT_OFF,BIT_OFF};
 	end
 
 	JUMP: begin /* TODO: add clear pipes controller */

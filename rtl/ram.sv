@@ -8,12 +8,14 @@ module ram #( parameter WIDTH = 32 )
 	output logic [WIDTH-1:0] RD
 );
 
-	//(* ram_init_file = "mem_pic.mif" *) logic [SIZE-1:0] RAM[63:0];
+	//(* ram_init_file = "img16x16.mif" *) logic [WIDTH-1:0] RAM[63:0];
 	logic [WIDTH-1:0] RAM[0:1024];
+
 	initial begin
 		for( int i=0; i < 1024; i++ ) begin
 			RAM[i] = i;
 		end
+		//$readmemh( "img16x16.mif", RAM );
 	end
 
 	always @ (posedge CLK) begin

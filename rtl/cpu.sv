@@ -39,6 +39,7 @@ logic [WIDTH-1:0] pcplus4_d;
 logic [WIDTH-1:0] signimm_ext_d;
 logic [2:0] shift_d;
 logic notequal_d;
+logic equal_d;
 
 logic regwrite_e;
 logic memtoreg_e;
@@ -98,6 +99,7 @@ pipe_fd p_fd(
     .PCPLUS4_D( pcplus4_d )
 );
 control_unit cu(
+    .CLK( CLK ),
     .OP( instr_d[31:26] ),
     .VEC( instr_d[0] ),
     .REG_WRITE( regwrite_d ),
@@ -157,7 +159,6 @@ pipe_de #(WIDTH) p_de(
     .RD2_D( rd2_d ),
     .RA1_D( instr_d[20:16] ),
     .RA2_D( instr_d[15:11] ),
-    .RS_D( rs_d ),
     .SIGN_IMM_D( signimm_d ),
     .SHIFT_D( instr_d[3:1] ),
     .WRITE_REG_D( instr_d[25:21] ),
@@ -171,7 +172,6 @@ pipe_de #(WIDTH) p_de(
     .RD2_E( rd2_e ),
     .RA1_E( ra1_e ),
     .RA2_E( ra2_e ),
-    .RS_E( rs_e ),
     .SIGN_IMM_E( signimm_e ),
     .SHIFT_E( shift_e ),
     .WRITE_REG_E( writereg_e )
@@ -199,7 +199,7 @@ pipe_em #(WIDTH) p_em(
     .MEM_TO_REG_E( memtoreg_e ),
     .MEM_WRITE_E( memwrite_e ),
     .ALU_OUT_E( aluout_e ),
-    .WRITE_DATA_E( writedata_e ),
+    .WRITE_DATA_E( rd2_e ),
     .WRITE_REG_E( writereg_e ),
 
     .REG_WRITE_M( regwrite_m ),
@@ -209,13 +209,13 @@ pipe_em #(WIDTH) p_em(
     .WRITE_DATA_M( writedata_m ),
     .WRITE_REG_M( writereg_m )
 );
-ram ram_1(
+/*ram ram_1(
     .CLK( CLK ), 
     .WE( memwrite_m ),
     .ADDRESS( aluout_m ), 
     .WD( writedata_m ),
     .RD( readdata_m )
-);
+);*/
 
 /**************************************/
 /* WRITEBACK */
@@ -224,7 +224,7 @@ pipe_mw p_mw(
     .CLR( RESET ),
     .REG_WRITE_M( regwrite_m ),
     .MEM_TO_REG_M( memtoreg_m ),
-    .READ_DATA_M( readdata_m ),
+    .READ_DATA_M( READ_MEM_DATA ),
     .ALU_OUT_M( aluout_m ),
     .WRITE_REG_M( writereg_m ),
 
