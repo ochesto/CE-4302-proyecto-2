@@ -7,10 +7,12 @@ module cpu #( parameter WIDTH = 32 )
     input logic [WIDTH-1:0] READ_MEM_DATA,
     input logic SWITCH_0,
     input logic SWITCH_1,
+	 input logic [WIDTH-1:0] VGA_ADDRESS,
     output logic [WIDTH-1:0] PC,
     output logic [WIDTH-1:0] MEM_ADDR,
     output logic WRITE_MEM_EN,
-    output logic [WIDTH-1:0] WRITE_MEM_DATA
+    output logic [WIDTH-1:0] WRITE_MEM_DATA,
+	 output logic [WIDTH-1:0] READ_PIXEL
 );
 
 logic [WIDTH-1:0] temp_pc;
@@ -217,7 +219,7 @@ pipe_em #(WIDTH) p_em(
 mux_2x1 m_3(
     .SELECT( SWITCH_0 ),
     .DATA_IN_1( aluout_m ),
-    .DATA_IN_2( vga_address ),
+    .DATA_IN_2( VGA_ADDRESS ),
     .DATA_OUT( selected_address_m )
 );
 /*ram ram_1(
@@ -270,5 +272,6 @@ assign PC = pc_f;
 assign MEM_ADDR = selected_address_m;
 assign WRITE_MEM_EN = memwrite_m;
 assign WRITE_MEM_DATA = writedata_m;
+assign READ_PIXEL=readpixel_m;
 
 endmodule
