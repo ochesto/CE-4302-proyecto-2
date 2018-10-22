@@ -114,13 +114,97 @@ module alu_tb;
         /* SCLV */
         alucontrol = ALU_SCLV;
         src_a = 32'd254;
+        src_b = 32'd0;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd1;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd2;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd3;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
         src_b = 32'd4;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd5;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd6;
+        #40;
+
+        /* SCLV */
+        alucontrol = ALU_SCLV;
+        src_a = 32'd254;
+        src_b = 32'd7;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd0;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd1;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd2;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd3;
         #40;
 
         /* SCRV */
         alucontrol = ALU_SCRV;
         src_a = 32'd254;
         src_b = 32'd4;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd5;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd6;
+        #40;
+
+        /* SCRV */
+        alucontrol = ALU_SCRV;
+        src_a = 32'd254;
+        src_b = 32'd7;
         #40;
 
         /* NOP */

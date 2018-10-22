@@ -142,15 +142,15 @@ sign_extend #(WIDTH) se(
     .DATA( instr_d[15:0] ),
     .EXTENDED( signimm_d )
 );
-shifter #(WIDTH) sh(
+/*shifter #(WIDTH) sh(
     .DATA( signimm_d ),
     .SHIFTED( signimm_ext_d )
-);
-adder #(WIDTH) add_sig(
+);*/
+/*adder #(WIDTH) add_sig(
     .DATA_IN_1( signimm_ext_d ),
     .DATA_IN_2( pcplus4_d ),
     .DATA_OUT( pcbranch_d )
-);
+);*/
 
 /**************************************/
 /* EXECUTE */
@@ -262,7 +262,7 @@ mux_2x1 m_4(
 mux_2x1 m_1(
     .SELECT( pcsrc_d ),
     .DATA_IN_1( pcplus4_f ),
-    .DATA_IN_2( pcbranch_d ),
+    .DATA_IN_2( signimm_d ),
     .DATA_OUT( temp_pc )
 );
 
