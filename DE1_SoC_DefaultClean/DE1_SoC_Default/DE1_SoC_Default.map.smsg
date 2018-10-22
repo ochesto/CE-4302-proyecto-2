@@ -1,3 +1,0 @@
-Warning (10273): Verilog HDL warning at DE1_SoC_Default.v(151): extended using "x" or "z" File: C:/Users/Geovanny/CE-4302-proyecto-2/DE1_SoC_DefaultClean/DE1_SoC_Default/DE1_SoC_Default.v Line: 151
-Warning (10273): Verilog HDL warning at DE1_SoC_Default.v(152): extended using "x" or "z" File: C:/Users/Geovanny/CE-4302-proyecto-2/DE1_SoC_DefaultClean/DE1_SoC_Default/DE1_SoC_Default.v Line: 152
-Warning (10268): Verilog HDL information at DE1_SoC_Default.v(167): always construct contains both blocking and non-blocking assignments File: C:/Users/Geovanny/CE-4302-proyecto-2/DE1_SoC_DefaultClean/DE1_SoC_Default/DE1_SoC_Default.v Line: 167
