@@ -101,7 +101,6 @@ always_comb begin
             result[31:24] = a_3 >> shift;
         end
 
-        /* TODO: All shift cases */
         ALU_SCLV: begin
             case( shift[2:0] )
                 
@@ -164,7 +163,6 @@ always_comb begin
             endcase
         end
 
-        /* TODO: All shift cases */
         ALU_SCRV: begin
             case( shift[2:0] )
                 
